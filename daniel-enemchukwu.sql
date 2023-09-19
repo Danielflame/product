@@ -5,7 +5,6 @@ CREATE TABLE products (
     description varchar(255),
     size varchar(255) NOT NULL,
     price varchar(255) NOT NULL,
-    active boolean DEFAULT true,
     created_at datetime DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );
