@@ -35,7 +35,7 @@ CREATE TABLE categories (
     id int,
     name varchar(255),
     slug varchar(255),
-    display_pic image, 
+    display_pic blob, 
     created_at datetime DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 )
